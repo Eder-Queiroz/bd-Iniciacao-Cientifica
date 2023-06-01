@@ -6,6 +6,6 @@ load_dotenv(find_dotenv())
 
 password = os.environ.get("MONGODB_PWD")
 
-connection_string = f"mongodb+srv://ederqueiroz:{password}@esduting.pgargdi.mongodb.net/?retryWrites=true&w=majority"
+connection_string = f"mongodb+srv://luizfilho:{password}@cluster0.uzqxw0y.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(connection_string)
